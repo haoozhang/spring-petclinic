@@ -1,0 +1,719 @@
+{
+  "GeneratedAt": "2026-06-22T06:59:33.0000000Z",
+  "ProjectPath": ".",
+  "Summary": {
+    "TotalFindings": 57,
+    "CveCount": 53,
+    "CweCount": 4,
+    "BySeverity": {
+      "mandatory": 53,
+      "potential": 2,
+      "optional": 2
+    },
+    "ByCategory": {
+      "CVE": 53,
+      "Code Quality": 1,
+      "Credentials & Secrets": 3
+    },
+    "TotalRulesAssessed": 59,
+    "RulesPassed": 55
+  },
+  "CveFindings": [
+    {
+      "Id": "CVE-2023-20873",
+      "Name": "Spring Boot Security Bypass with Wildcard Pattern Matching on Cloud Foundry",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-20873](https://github.com/advisories/GHSA-g5h3-w546-pj7f): Spring Boot Security Bypass with Wildcard Pattern Matching on Cloud Foundry\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: >= 3.0.0, < 3.0.6) \u2192 upgrade to 3.0.6\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: >= 2.7.0, < 2.7.11) \u2192 upgrade to 2.7.11\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: >= 2.6.0, < 2.6.15) \u2192 upgrade to 2.6.15\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: < 2.5.15) \u2192 upgrade to 2.5.15\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2023-20873](https://github.com/advisories/GHSA-g5h3-w546-pj7f): Spring Boot Security Bypass with Wildcard Pattern Matching on Cloud Foundry\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: >= 3.0.0, < 3.0.6) \u2192 upgrade to 3.0.6\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: >= 2.7.0, < 2.7.11) \u2192 upgrade to 2.7.11\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: >= 2.6.0, < 2.6.15) \u2192 upgrade to 2.6.15\n  - org.springframework.boot:spring-boot-actuator-autoconfigure (range: < 2.5.15) \u2192 upgrade to 2.5.15\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-43512",
+      "Name": "Apache Tomcat - Digest authenticator will authenticate any unknown user",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-43512](https://github.com/advisories/GHSA-h6fc-48rj-7qqh): Apache Tomcat - Digest authenticator will authenticate any unknown user\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-43512](https://github.com/advisories/GHSA-h6fc-48rj-7qqh): Apache Tomcat - Digest authenticator will authenticate any unknown user\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-43515",
+      "Name": "Apache Tomcat - Security constraints not correctly applied",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-43515](https://github.com/advisories/GHSA-5m62-pw8w-7w9f): Apache Tomcat - Security constraints not correctly applied\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-43515](https://github.com/advisories/GHSA-5m62-pw8w-7w9f): Apache Tomcat - Security constraints not correctly applied\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-41293",
+      "Name": "Apache Tomcat - HTTP/2 request headers not validated",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-41293](https://github.com/advisories/GHSA-r29c-68gh-xp6x): Apache Tomcat - HTTP/2 request headers not validated\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-41293](https://github.com/advisories/GHSA-r29c-68gh-xp6x): Apache Tomcat - HTTP/2 request headers not validated\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-41901",
+      "Name": "Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-41901](https://github.com/advisories/GHSA-c9ph-gxww-7744): Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf (range: <= 3.1.4.RELEASE) \u2192 upgrade to 3.1.5.RELEASE\n  - org.thymeleaf:thymeleaf-spring5 (range: <= 3.1.4.RELEASE) \u2192 upgrade to 3.1.5.RELEASE\n  - org.thymeleaf:thymeleaf-spring6 (range: <= 3.1.4.RELEASE) \u2192 upgrade to 3.1.5.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml",
+        "pom.xml:56"
+      ],
+      "Explanation": "[CVE-2026-41901](https://github.com/advisories/GHSA-c9ph-gxww-7744): Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf (range: <= 3.1.4.RELEASE) \u2192 upgrade to 3.1.5.RELEASE\n  - org.thymeleaf:thymeleaf-spring5 (range: <= 3.1.4.RELEASE) \u2192 upgrade to 3.1.5.RELEASE\n  - org.thymeleaf:thymeleaf-spring6 (range: <= 3.1.4.RELEASE) \u2192 upgrade to 3.1.5.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-40478",
+      "Name": "Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-40478](https://github.com/advisories/GHSA-xjw8-8c5c-9r79): Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring5 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring6 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml",
+        "pom.xml:56"
+      ],
+      "Explanation": "[CVE-2026-40478](https://github.com/advisories/GHSA-xjw8-8c5c-9r79): Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring5 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring6 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-40477",
+      "Name": "Improper restriction of the scope of accessible objects in Thymeleaf expressions",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-40477](https://github.com/advisories/GHSA-r4v4-5mwr-2fwr): Improper restriction of the scope of accessible objects in Thymeleaf expressions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring5 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring6 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml",
+        "pom.xml:56"
+      ],
+      "Explanation": "[CVE-2026-40477](https://github.com/advisories/GHSA-r4v4-5mwr-2fwr): Improper restriction of the scope of accessible objects in Thymeleaf expressions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring5 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf-spring6 (range: <= 3.1.3.RELEASE) \u2192 upgrade to 3.1.4.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-24813",
+      "Name": "Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.3) \u2192 upgrade to 11.0.3\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.35) \u2192 upgrade to 10.1.35\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, < 9.0.99) \u2192 upgrade to 9.0.99\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.3) \u2192 upgrade to 11.0.3\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.35) \u2192 upgrade to 10.1.35\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.99) \u2192 upgrade to 9.0.99\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.3) \u2192 upgrade to 11.0.3\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.35) \u2192 upgrade to 10.1.35\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, < 9.0.99) \u2192 upgrade to 9.0.99\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.3) \u2192 upgrade to 11.0.3\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.35) \u2192 upgrade to 10.1.35\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.99) \u2192 upgrade to 9.0.99\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-20860",
+      "Name": "Spring Framework is vulnerable to security bypass via mvcRequestMatcher pattern mismatch",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-20860](https://github.com/advisories/GHSA-7phw-cxx7-q9vq): Spring Framework is vulnerable to security bypass via mvcRequestMatcher pattern mismatch\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring (range: >= 6.0.0, < 6.0.7) \u2192 upgrade to 6.0.7\n  - org.springframework:spring (range: >= 5.3.0, < 5.3.26) \u2192 upgrade to 5.3.26\n  - org.springframework:spring-webmvc (range: >= 6.0.0, < 6.0.7) \u2192 upgrade to 6.0.7\n  - org.springframework:spring-webmvc (range: >= 5.3.0, < 5.3.26) \u2192 upgrade to 5.3.26\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml",
+        "pom.xml:4"
+      ],
+      "Explanation": "[CVE-2023-20860](https://github.com/advisories/GHSA-7phw-cxx7-q9vq): Spring Framework is vulnerable to security bypass via mvcRequestMatcher pattern mismatch\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring (range: >= 6.0.0, < 6.0.7) \u2192 upgrade to 6.0.7\n  - org.springframework:spring (range: >= 5.3.0, < 5.3.26) \u2192 upgrade to 5.3.26\n  - org.springframework:spring-webmvc (range: >= 6.0.0, < 6.0.7) \u2192 upgrade to 6.0.7\n  - org.springframework:spring-webmvc (range: >= 5.3.0, < 5.3.26) \u2192 upgrade to 5.3.26\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2016-1000027",
+      "Name": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2016-1000027](https://github.com/advisories/GHSA-4wrc-f8pq-fpqp): Pivotal Spring Framework contains unsafe Java deserialization methods\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-web (range: < 6.0.0) \u2192 upgrade to 6.0.0\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2016-1000027](https://github.com/advisories/GHSA-4wrc-f8pq-fpqp): Pivotal Spring Framework contains unsafe Java deserialization methods\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-web (range: < 6.0.0) \u2192 upgrade to 6.0.0\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-1597",
+      "Name": "org.postgresql:postgresql vulnerable to SQL Injection via line comment generation",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56): org.postgresql:postgresql vulnerable to SQL Injection via line comment generation\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.postgresql:postgresql (range: < 42.2.28) \u2192 upgrade to 42.2.28\n  - org.postgresql:postgresql (range: >= 42.3.0, < 42.3.9) \u2192 upgrade to 42.3.9\n  - org.postgresql:postgresql (range: >= 42.4.0, < 42.4.4) \u2192 upgrade to 42.4.4\n  - org.postgresql:postgresql (range: >= 42.5.0, < 42.5.5) \u2192 upgrade to 42.5.5\n  - org.postgresql:postgresql (range: >= 42.6.0, < 42.6.1) \u2192 upgrade to 42.6.1\n  - org.postgresql:postgresql (range: >= 42.7.0, < 42.7.2) \u2192 upgrade to 42.7.2\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:76"
+      ],
+      "Explanation": "[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56): org.postgresql:postgresql vulnerable to SQL Injection via line comment generation\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.postgresql:postgresql (range: < 42.2.28) \u2192 upgrade to 42.2.28\n  - org.postgresql:postgresql (range: >= 42.3.0, < 42.3.9) \u2192 upgrade to 42.3.9\n  - org.postgresql:postgresql (range: >= 42.4.0, < 42.4.4) \u2192 upgrade to 42.4.4\n  - org.postgresql:postgresql (range: >= 42.5.0, < 42.5.5) \u2192 upgrade to 42.5.5\n  - org.postgresql:postgresql (range: >= 42.6.0, < 42.6.1) \u2192 upgrade to 42.6.1\n  - org.postgresql:postgresql (range: >= 42.7.0, < 42.7.2) \u2192 upgrade to 42.7.2\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-22733",
+      "Name": "Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-22733](https://github.com/advisories/GHSA-mgvc-8q2h-5pgc): Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 4.0.0-M1, < 4.0.4) \u2192 upgrade to 4.0.4\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 3.5.0, < 3.5.12) \u2192 upgrade to 3.5.12\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 3.4.0, <= 3.4.13)\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 3.0.0, <= 3.3.13)\n  - org.springframework.boot:spring-boot-starter-actuator (range: <= 2.7.18)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:36"
+      ],
+      "Explanation": "[CVE-2026-22733](https://github.com/advisories/GHSA-mgvc-8q2h-5pgc): Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 4.0.0-M1, < 4.0.4) \u2192 upgrade to 4.0.4\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 3.5.0, < 3.5.12) \u2192 upgrade to 3.5.12\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 3.4.0, <= 3.4.13)\n  - org.springframework.boot:spring-boot-starter-actuator (range: >= 3.0.0, <= 3.3.13)\n  - org.springframework.boot:spring-boot-starter-actuator (range: <= 2.7.18)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-6378",
+      "Name": "logback serialization vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-6378](https://github.com/advisories/GHSA-vmq6-5m68-f53m): logback serialization vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-classic (range: >= 1.4.0, < 1.4.12) \u2192 upgrade to 1.4.12\n  - ch.qos.logback:logback-core (range: >= 1.4.0, < 1.4.12) \u2192 upgrade to 1.4.12\n  - ch.qos.logback:logback-classic (range: >= 1.3.0, < 1.3.12) \u2192 upgrade to 1.3.12\n  - ch.qos.logback:logback-core (range: >= 1.3.0, < 1.3.12) \u2192 upgrade to 1.3.12\n  - ch.qos.logback:logback-core (range: < 1.2.13) \u2192 upgrade to 1.2.13\n  - ch.qos.logback:logback-classic (range: < 1.2.13) \u2192 upgrade to 1.2.13\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2023-6378](https://github.com/advisories/GHSA-vmq6-5m68-f53m): logback serialization vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-classic (range: >= 1.4.0, < 1.4.12) \u2192 upgrade to 1.4.12\n  - ch.qos.logback:logback-core (range: >= 1.4.0, < 1.4.12) \u2192 upgrade to 1.4.12\n  - ch.qos.logback:logback-classic (range: >= 1.3.0, < 1.3.12) \u2192 upgrade to 1.3.12\n  - ch.qos.logback:logback-core (range: >= 1.3.0, < 1.3.12) \u2192 upgrade to 1.3.12\n  - ch.qos.logback:logback-core (range: < 1.2.13) \u2192 upgrade to 1.2.13\n  - ch.qos.logback:logback-classic (range: < 1.2.13) \u2192 upgrade to 1.2.13\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-1471",
+      "Name": "SnakeYaml Constructor Deserialization Remote Code Execution",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-1471](https://github.com/advisories/GHSA-mjmj-j48q-9wg2): SnakeYaml Constructor Deserialization Remote Code Execution\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml (range: <= 1.33) \u2192 upgrade to 2.0\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2022-1471](https://github.com/advisories/GHSA-mjmj-j48q-9wg2): SnakeYaml Constructor Deserialization Remote Code Execution\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml (range: <= 1.33) \u2192 upgrade to 2.0\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-42003",
+      "Name": "Uncontrolled Resource Consumption in Jackson-databind",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-42003](https://github.com/advisories/GHSA-jjjh-jjxp-wpff): Uncontrolled Resource Consumption in Jackson-databind\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.4.0-rc1, < 2.12.7.1) \u2192 upgrade to 2.12.7.1\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.13.0, < 2.13.4.2) \u2192 upgrade to 2.13.4.2\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2022-42003](https://github.com/advisories/GHSA-jjjh-jjxp-wpff): Uncontrolled Resource Consumption in Jackson-databind\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.4.0-rc1, < 2.12.7.1) \u2192 upgrade to 2.12.7.1\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.13.0, < 2.13.4.2) \u2192 upgrade to 2.13.4.2\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-42004",
+      "Name": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-42004](https://github.com/advisories/GHSA-rgv9-q543-rqg4): Uncontrolled Resource Consumption in FasterXML jackson-databind\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.13.0, < 2.13.4) \u2192 upgrade to 2.13.4\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.4.0-rc1, < 2.12.7.1) \u2192 upgrade to 2.12.7.1\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2022-42004](https://github.com/advisories/GHSA-rgv9-q543-rqg4): Uncontrolled Resource Consumption in FasterXML jackson-databind\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.13.0, < 2.13.4) \u2192 upgrade to 2.13.4\n  - com.fasterxml.jackson.core:jackson-databind (range: >= 2.4.0-rc1, < 2.12.7.1) \u2192 upgrade to 2.12.7.1\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-25857",
+      "Name": "Uncontrolled Resource Consumption in snakeyaml",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-25857](https://github.com/advisories/GHSA-3mc7-4q67-w48m): Uncontrolled Resource Consumption in snakeyaml\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml (range: < 1.31) \u2192 upgrade to 1.31\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2022-25857](https://github.com/advisories/GHSA-3mc7-4q67-w48m): Uncontrolled Resource Consumption in snakeyaml\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml (range: < 1.31) \u2192 upgrade to 1.31\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-41284",
+      "Name": "Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-41284](https://github.com/advisories/GHSA-gx5v-xp9w-j4cg): Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-41284](https://github.com/advisories/GHSA-gx5v-xp9w-j4cg): Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-43513",
+      "Name": "Apache Tomcat: LockOutRealm treats user names as case-sensitive",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-43513](https://github.com/advisories/GHSA-5mp6-jrq3-r938): Apache Tomcat: LockOutRealm treats user names as case-sensitive\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-43513](https://github.com/advisories/GHSA-5mp6-jrq3-r938): Apache Tomcat: LockOutRealm treats user names as case-sensitive\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-42498",
+      "Name": "Apache Tomcat - WebSocket authentication header exposure",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-42498](https://github.com/advisories/GHSA-fv25-8xcx-gqjc): Apache Tomcat - WebSocket authentication header exposure\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-42498](https://github.com/advisories/GHSA-fv25-8xcx-gqjc): Apache Tomcat - WebSocket authentication header exposure\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n  - org.apache.tomcat:tomcat-catalina (range: < 9.0.118) \u2192 upgrade to 9.0.118\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.55) \u2192 upgrade to 10.1.55\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.22) \u2192 upgrade to 11.0.22\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-34483",
+      "Name": "Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.40, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.54) \u2192 upgrade to 10.1.54\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.21) \u2192 upgrade to 11.0.21\n  - org.apache.tomcat:tomcat (range: >= 9.0.40, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.54) \u2192 upgrade to 10.1.54\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.21) \u2192 upgrade to 11.0.21\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.40, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.54) \u2192 upgrade to 10.1.54\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.21) \u2192 upgrade to 11.0.21\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.40, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.54) \u2192 upgrade to 10.1.54\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.21) \u2192 upgrade to 11.0.21\n  - org.apache.tomcat:tomcat (range: >= 9.0.40, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.54) \u2192 upgrade to 10.1.54\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.21) \u2192 upgrade to 11.0.21\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.40, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.54) \u2192 upgrade to 10.1.54\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.21) \u2192 upgrade to 11.0.21\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-24880",
+      "Name": "Apache Tomcat has an HTTP Request/Response Smuggling vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-24880](https://github.com/advisories/GHSA-563x-q5rq-57qp): Apache Tomcat has an HTTP Request/Response Smuggling vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (range: >= 7.0.0, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.52) \u2192 upgrade to 10.1.52\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, <= 11.0.18) \u2192 upgrade to 11.0.20\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 7.0.0, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.52) \u2192 upgrade to 10.1.52\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, <= 11.0.18) \u2192 upgrade to 11.0.20\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-24880](https://github.com/advisories/GHSA-563x-q5rq-57qp): Apache Tomcat has an HTTP Request/Response Smuggling vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (range: >= 7.0.0, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.52) \u2192 upgrade to 10.1.52\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, <= 11.0.18) \u2192 upgrade to 11.0.20\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 7.0.0, < 9.0.116) \u2192 upgrade to 9.0.116\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.52) \u2192 upgrade to 10.1.52\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, <= 11.0.18) \u2192 upgrade to 11.0.20\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-0603",
+      "Name": "Hibernate vulnerable to SQL Injection",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-0603](https://github.com/advisories/GHSA-2p5w-cvg5-gc5c): Hibernate vulnerable to SQL Injection\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.hibernate:hibernate-core (range: >= 5.2.8, <= 5.6.15)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-0603](https://github.com/advisories/GHSA-2p5w-cvg5-gc5c): Hibernate vulnerable to SQL Injection\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.hibernate:hibernate-core (range: >= 5.2.8, <= 5.6.15)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-55752",
+      "Name": "Apache Tomcat Vulnerable to Relative Path Traversal",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.11) \u2192 upgrade to 11.0.11\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.45) \u2192 upgrade to 10.1.45\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.11) \u2192 upgrade to 11.0.11\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.45) \u2192 upgrade to 10.1.45\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.11) \u2192 upgrade to 11.0.11\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.45) \u2192 upgrade to 10.1.45\n  - org.apache.tomcat:tomcat (range: >= 9.0.0-M11, < 9.0.109) \u2192 upgrade to 9.0.109\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0-M11, < 9.0.109) \u2192 upgrade to 9.0.109\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M11, < 9.0.109) \u2192 upgrade to 9.0.109\n  - org.apache.tomcat:tomcat (range: >= 8.5.6, <= 8.5.100)\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.6, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.6, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat (range: >= 11.0.0-M1, < 11.0.11) \u2192 upgrade to 11.0.11\n  - org.apache.tomcat:tomcat (range: >= 10.1.0-M1, < 10.1.45) \u2192 upgrade to 10.1.45\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.11) \u2192 upgrade to 11.0.11\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.45) \u2192 upgrade to 10.1.45\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.11) \u2192 upgrade to 11.0.11\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.45) \u2192 upgrade to 10.1.45\n  - org.apache.tomcat:tomcat (range: >= 9.0.0-M11, < 9.0.109) \u2192 upgrade to 9.0.109\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0-M11, < 9.0.109) \u2192 upgrade to 9.0.109\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M11, < 9.0.109) \u2192 upgrade to 9.0.109\n  - org.apache.tomcat:tomcat (range: >= 8.5.6, <= 8.5.100)\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.6, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.6, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-48989",
+      "Name": "Apache Tomcat Improper Resource Shutdown or Release vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, < 11.0.10) \u2192 upgrade to 11.0.10\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.44) \u2192 upgrade to 10.1.44\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0.M1, < 9.0.108) \u2192 upgrade to 9.0.108\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.10) \u2192 upgrade to 11.0.10\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.44) \u2192 upgrade to 10.1.44\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.108) \u2192 upgrade to 9.0.108\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, < 11.0.10) \u2192 upgrade to 11.0.10\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.44) \u2192 upgrade to 10.1.44\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0.M1, < 9.0.108) \u2192 upgrade to 9.0.108\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.10) \u2192 upgrade to 11.0.10\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.44) \u2192 upgrade to 10.1.44\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.108) \u2192 upgrade to 9.0.108\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-53506",
+      "Name": "Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat:tomcat-coyote (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat:tomcat-coyote (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-52520",
+      "Name": "Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.9) \u2192 upgrade to 11.0.9\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.43) \u2192 upgrade to 10.1.43\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.107) \u2192 upgrade to 9.0.107\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-48988",
+      "Name": "Apache Tomcat - DoS in multipart upload",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, <= 11.0.7) \u2192 upgrade to 11.0.8\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, <= 10.1.41) \u2192 upgrade to 10.1.42\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, <= 9.0.105) \u2192 upgrade to 9.0.106\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, <= 11.0.7) \u2192 upgrade to 11.0.8\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, <= 10.1.41) \u2192 upgrade to 10.1.42\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, <= 9.0.105) \u2192 upgrade to 9.0.106\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, <= 11.0.7) \u2192 upgrade to 11.0.8\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, <= 10.1.41) \u2192 upgrade to 10.1.42\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, <= 9.0.105) \u2192 upgrade to 9.0.106\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, <= 11.0.7) \u2192 upgrade to 11.0.8\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, <= 10.1.41) \u2192 upgrade to 10.1.42\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, <= 9.0.105) \u2192 upgrade to 9.0.106\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-56337",
+      "Name": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-38819",
+      "Name": "Spring Framework Path Traversal vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webflux (range: >= 6.1.0, < 6.1.14) \u2192 upgrade to 6.1.14\n  - org.springframework:spring-webmvc (range: >= 6.1.0, < 6.1.14) \u2192 upgrade to 6.1.14\n  - org.springframework:spring-webflux (range: <= 5.3.39)\n  - org.springframework:spring-webmvc (range: <= 5.3.39)\n  - org.springframework:spring-webflux (range: >= 6.0.0, <= 6.0.23)\n  - org.springframework:spring-webmvc (range: >= 6.0.0, <= 6.0.23)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webflux (range: >= 6.1.0, < 6.1.14) \u2192 upgrade to 6.1.14\n  - org.springframework:spring-webmvc (range: >= 6.1.0, < 6.1.14) \u2192 upgrade to 6.1.14\n  - org.springframework:spring-webflux (range: <= 5.3.39)\n  - org.springframework:spring-webmvc (range: <= 5.3.39)\n  - org.springframework:spring-webflux (range: >= 6.0.0, <= 6.0.23)\n  - org.springframework:spring-webmvc (range: >= 6.0.0, <= 6.0.23)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-50379",
+      "Name": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.2) \u2192 upgrade to 11.0.2\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.34) \u2192 upgrade to 10.1.34\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0.M1, < 9.0.98) \u2192 upgrade to 9.0.98\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-38816",
+      "Name": "Path traversal vulnerability in functional web frameworks",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc (range: >= 6.1.0, < 6.1.13) \u2192 upgrade to 6.1.13\n  - org.springframework:spring-webflux (range: >= 6.1.0, < 6.1.13) \u2192 upgrade to 6.1.13\n  - org.springframework:spring-webmvc (range: >= 6.0.0, <= 6.0.23)\n  - org.springframework:spring-webflux (range: >= 6.0.0, <= 6.0.23)\n  - org.springframework:spring-webmvc (range: >= 5.3.0, <= 5.3.39)\n  - org.springframework:spring-webflux (range: >= 5.3.0, <= 5.3.39)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc (range: >= 6.1.0, < 6.1.13) \u2192 upgrade to 6.1.13\n  - org.springframework:spring-webflux (range: >= 6.1.0, < 6.1.13) \u2192 upgrade to 6.1.13\n  - org.springframework:spring-webmvc (range: >= 6.0.0, <= 6.0.23)\n  - org.springframework:spring-webflux (range: >= 6.0.0, <= 6.0.23)\n  - org.springframework:spring-webmvc (range: >= 5.3.0, <= 5.3.39)\n  - org.springframework:spring-webflux (range: >= 5.3.0, <= 5.3.39)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-34750",
+      "Name": "Apache Tomcat - Denial of Service",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.0-M21) \u2192 upgrade to 11.0.0-M21\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.25) \u2192 upgrade to 10.1.25\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.90) \u2192 upgrade to 9.0.90\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, < 11.0.0-M21) \u2192 upgrade to 11.0.0-M21\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.25) \u2192 upgrade to 10.1.25\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0-M1, < 9.0.90) \u2192 upgrade to 9.0.90\n  - org.apache.tomcat:tomcat-coyote (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.0-M21) \u2192 upgrade to 11.0.0-M21\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.25) \u2192 upgrade to 10.1.25\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.90) \u2192 upgrade to 9.0.90\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M1, < 11.0.0-M21) \u2192 upgrade to 11.0.0-M21\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.25) \u2192 upgrade to 10.1.25\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0-M1, < 9.0.90) \u2192 upgrade to 9.0.90\n  - org.apache.tomcat:tomcat-coyote (range: >= 8.5.0, <= 8.5.100)\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, <= 8.5.100)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-22262",
+      "Name": "Spring Framework URL Parsing with Host Validation",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (range: < 5.3.34) \u2192 upgrade to 5.3.34\n  - org.springframework:spring-web (range: >= 6.0.0, < 6.0.19) \u2192 upgrade to 6.0.19\n  - org.springframework:spring-web (range: >= 6.1.0, < 6.1.6) \u2192 upgrade to 6.1.6\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (range: < 5.3.34) \u2192 upgrade to 5.3.34\n  - org.springframework:spring-web (range: >= 6.0.0, < 6.0.19) \u2192 upgrade to 6.0.19\n  - org.springframework:spring-web (range: >= 6.1.0, < 6.1.6) \u2192 upgrade to 6.1.6\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-22259",
+      "Name": "Spring Framework URL Parsing with Host Validation Vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-22259](https://github.com/advisories/GHSA-hgjh-9rj2-g67j): Spring Framework URL Parsing with Host Validation Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (range: >= 6.1.0, < 6.1.5) \u2192 upgrade to 6.1.5\n  - org.springframework:spring-web (range: >= 6.0.0, < 6.0.18) \u2192 upgrade to 6.0.18\n  - org.springframework:spring-web (range: < 5.3.33) \u2192 upgrade to 5.3.33\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-22259](https://github.com/advisories/GHSA-hgjh-9rj2-g67j): Spring Framework URL Parsing with Host Validation Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (range: >= 6.1.0, < 6.1.5) \u2192 upgrade to 6.1.5\n  - org.springframework:spring-web (range: >= 6.0.0, < 6.0.18) \u2192 upgrade to 6.0.18\n  - org.springframework:spring-web (range: < 5.3.33) \u2192 upgrade to 5.3.33\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2024-22243",
+      "Name": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2024-22243](https://github.com/advisories/GHSA-ccgv-vj62-xf9h): Spring Web vulnerable to Open Redirect or Server Side Request Forgery\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (range: >= 6.1.0, < 6.1.4) \u2192 upgrade to 6.1.4\n  - org.springframework:spring-web (range: >= 6.0.0, < 6.0.17) \u2192 upgrade to 6.0.17\n  - org.springframework:spring-web (range: >= 5.3.0, < 5.3.32) \u2192 upgrade to 5.3.32\n  - org.springframework:spring-web (range: <= 5.2.25.RELEASE)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2024-22243](https://github.com/advisories/GHSA-ccgv-vj62-xf9h): Spring Web vulnerable to Open Redirect or Server Side Request Forgery\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web (range: >= 6.1.0, < 6.1.4) \u2192 upgrade to 6.1.4\n  - org.springframework:spring-web (range: >= 6.0.0, < 6.0.17) \u2192 upgrade to 6.0.17\n  - org.springframework:spring-web (range: >= 5.3.0, < 5.3.32) \u2192 upgrade to 5.3.32\n  - org.springframework:spring-web (range: <= 5.2.25.RELEASE)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-46589",
+      "Name": "Apache Tomcat Improper Input Validation vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-46589](https://github.com/advisories/GHSA-fccv-jmmp-qg76): Apache Tomcat Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.0-M11) \u2192 upgrade to 11.0.0-M11\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.16) \u2192 upgrade to 10.1.16\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0-M1, < 9.0.83) \u2192 upgrade to 9.0.83\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, < 8.5.96) \u2192 upgrade to 8.5.96\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.0-M11) \u2192 upgrade to 11.0.0-M11\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.16) \u2192 upgrade to 10.1.16\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.83) \u2192 upgrade to 9.0.83\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, < 8.5.96) \u2192 upgrade to 8.5.96\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2023-46589](https://github.com/advisories/GHSA-fccv-jmmp-qg76): Apache Tomcat Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M1, < 11.0.0-M11) \u2192 upgrade to 11.0.0-M11\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.16) \u2192 upgrade to 10.1.16\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0-M1, < 9.0.83) \u2192 upgrade to 9.0.83\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.0, < 8.5.96) \u2192 upgrade to 8.5.96\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M1, < 11.0.0-M11) \u2192 upgrade to 11.0.0-M11\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.16) \u2192 upgrade to 10.1.16\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.83) \u2192 upgrade to 9.0.83\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, < 8.5.96) \u2192 upgrade to 8.5.96\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-20863",
+      "Name": "Spring Framework vulnerable to denial of service",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-20863](https://github.com/advisories/GHSA-wxqc-pxw9-g2p8): Spring Framework vulnerable to denial of service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-expression (range: >= 6.0.0, < 6.0.8) \u2192 upgrade to 6.0.8\n  - org.springframework:spring-expression (range: >= 5.3.0, < 5.3.27) \u2192 upgrade to 5.3.27\n  - org.springframework:spring-expression (range: < 5.2.24.RELEASE) \u2192 upgrade to 5.2.24.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2023-20863](https://github.com/advisories/GHSA-wxqc-pxw9-g2p8): Spring Framework vulnerable to denial of service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-expression (range: >= 6.0.0, < 6.0.8) \u2192 upgrade to 6.0.8\n  - org.springframework:spring-expression (range: >= 5.3.0, < 5.3.27) \u2192 upgrade to 5.3.27\n  - org.springframework:spring-expression (range: < 5.2.24.RELEASE) \u2192 upgrade to 5.2.24.RELEASE\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-24998",
+      "Name": "Apache Commons FileUpload denial of service vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-24998](https://github.com/advisories/GHSA-hfrx-6qgj-fp6c): Apache Commons FileUpload denial of service vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - commons-fileupload:commons-fileupload (range: < 1.5) \u2192 upgrade to 1.5\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.5) \u2192 upgrade to 10.1.5\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M2, < 11.0.0-M5) \u2192 upgrade to 11.0.0-M5\n  - org.apache.tomcat:tomcat-coyote (range: >= 8.5.85, < 8.5.88) \u2192 upgrade to 8.5.88\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0-M1, < 9.0.71) \u2192 upgrade to 9.0.71\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.5) \u2192 upgrade to 10.1.5\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M2, < 11.0.0-M5) \u2192 upgrade to 11.0.0-M5\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.85, < 8.5.88) \u2192 upgrade to 8.5.88\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.71) \u2192 upgrade to 9.0.71\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.5) \u2192 upgrade to 10.1.5\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M2, < 11.0.0-M5) \u2192 upgrade to 11.0.0-M5\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.85, < 8.5.88) \u2192 upgrade to 8.5.88\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0-M1, < 9.0.71) \u2192 upgrade to 9.0.71\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2023-24998](https://github.com/advisories/GHSA-hfrx-6qgj-fp6c): Apache Commons FileUpload denial of service vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - commons-fileupload:commons-fileupload (range: < 1.5) \u2192 upgrade to 1.5\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.5) \u2192 upgrade to 10.1.5\n  - org.apache.tomcat:tomcat-coyote (range: >= 11.0.0-M2, < 11.0.0-M5) \u2192 upgrade to 11.0.0-M5\n  - org.apache.tomcat:tomcat-coyote (range: >= 8.5.85, < 8.5.88) \u2192 upgrade to 8.5.88\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0-M1, < 9.0.71) \u2192 upgrade to 9.0.71\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.5) \u2192 upgrade to 10.1.5\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 11.0.0-M2, < 11.0.0-M5) \u2192 upgrade to 11.0.0-M5\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.85, < 8.5.88) \u2192 upgrade to 8.5.88\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.71) \u2192 upgrade to 9.0.71\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0-M1, < 10.1.5) \u2192 upgrade to 10.1.5\n  - org.apache.tomcat:tomcat-catalina (range: >= 11.0.0-M2, < 11.0.0-M5) \u2192 upgrade to 11.0.0-M5\n  - org.apache.tomcat:tomcat-catalina (range: >= 8.5.85, < 8.5.88) \u2192 upgrade to 8.5.88\n  - org.apache.tomcat:tomcat-catalina (range: >= 9.0.0-M1, < 9.0.71) \u2192 upgrade to 9.0.71\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-45143",
+      "Name": "Apache Tomcat improperly escapes input from JsonErrorReportValve",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-45143](https://github.com/advisories/GHSA-rq2w-37h9-vg94): Apache Tomcat improperly escapes input from JsonErrorReportValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: = 8.5.83) \u2192 upgrade to 8.5.84\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.40, <= 9.0.68) \u2192 upgrade to 9.0.69\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0, <= 10.1.1) \u2192 upgrade to 10.1.2\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0, <= 10.1.1) \u2192 upgrade to 10.1.2\n  - org.apache.tomcat:tomcat-util (range: = 8.5.83) \u2192 upgrade to 8.5.84\n  - org.apache.tomcat:tomcat-util (range: >= 9.0.40, < 9.0.69) \u2192 upgrade to 9.0.69\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2022-45143](https://github.com/advisories/GHSA-rq2w-37h9-vg94): Apache Tomcat improperly escapes input from JsonErrorReportValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: = 8.5.83) \u2192 upgrade to 8.5.84\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.40, <= 9.0.68) \u2192 upgrade to 9.0.69\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0, <= 10.1.1) \u2192 upgrade to 10.1.2\n  - org.apache.tomcat:tomcat-catalina (range: >= 10.1.0, <= 10.1.1) \u2192 upgrade to 10.1.2\n  - org.apache.tomcat:tomcat-util (range: = 8.5.83) \u2192 upgrade to 8.5.84\n  - org.apache.tomcat:tomcat-util (range: >= 9.0.40, < 9.0.69) \u2192 upgrade to 9.0.69\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-42252",
+      "Name": "Apache Tomcat may reject request containing invalid Content-Length header",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-42252](https://github.com/advisories/GHSA-p22x-g9px-3945): Apache Tomcat may reject request containing invalid Content-Length header\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, < 8.5.83) \u2192 upgrade to 8.5.83\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.68) \u2192 upgrade to 9.0.68\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.0.0-M1, < 10.0.27) \u2192 upgrade to 10.0.27\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.1) \u2192 upgrade to 10.1.1\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0-M1, < 9.0.68) \u2192 upgrade to 9.0.68\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.0.0-M1, < 10.0.27) \u2192 upgrade to 10.0.27\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.1) \u2192 upgrade to 10.1.1\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2022-42252](https://github.com/advisories/GHSA-p22x-g9px-3945): Apache Tomcat may reject request containing invalid Content-Length header\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 8.5.0, < 8.5.83) \u2192 upgrade to 8.5.83\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 9.0.0-M1, < 9.0.68) \u2192 upgrade to 9.0.68\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.0.0-M1, < 10.0.27) \u2192 upgrade to 10.0.27\n  - org.apache.tomcat.embed:tomcat-embed-core (range: >= 10.1.0-M1, < 10.1.1) \u2192 upgrade to 10.1.1\n  - org.apache.tomcat:tomcat-coyote (range: >= 9.0.0-M1, < 9.0.68) \u2192 upgrade to 9.0.68\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.0.0-M1, < 10.0.27) \u2192 upgrade to 10.0.27\n  - org.apache.tomcat:tomcat-coyote (range: >= 10.1.0-M1, < 10.1.1) \u2192 upgrade to 10.1.1\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-24400",
+      "Name": "AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core (range: >= 1.4.0, <= 3.27.6) \u2192 upgrade to 3.27.7\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core (range: >= 1.4.0, <= 3.27.6) \u2192 upgrade to 3.27.7\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-41249",
+      "Name": "Spring Framework annotation detection mechanism may result in improper authorization",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core (range: >= 5.3.0, <= 5.3.44)\n  - org.springframework:spring-core (range: >= 6.0.0, <= 6.1.22)\n  - org.springframework:spring-core (range: >= 6.2.0, <= 6.2.10) \u2192 upgrade to 6.2.11\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core (range: >= 5.3.0, <= 5.3.44)\n  - org.springframework:spring-core (range: >= 6.0.0, <= 6.1.22)\n  - org.springframework:spring-core (range: >= 6.2.0, <= 6.2.10) \u2192 upgrade to 6.2.11\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-1370",
+      "Name": "json-smart Uncontrolled Recursion vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-1370](https://github.com/advisories/GHSA-493p-pfq6-5258): json-smart Uncontrolled Recursion vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - net.minidev:json-smart (range: < 2.4.9) \u2192 upgrade to 2.4.9\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2023-1370](https://github.com/advisories/GHSA-493p-pfq6-5258): json-smart Uncontrolled Recursion vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - net.minidev:json-smart (range: < 2.4.9) \u2192 upgrade to 2.4.9\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-42198",
+      "Name": "pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-42198](https://github.com/advisories/GHSA-98qh-xjc8-98pq): pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql (range: >= 42.2.0, < 42.7.11) \u2192 upgrade to 42.7.11\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:76"
+      ],
+      "Explanation": "[CVE-2026-42198](https://github.com/advisories/GHSA-98qh-xjc8-98pq): pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql (range: >= 42.2.0, < 42.7.11) \u2192 upgrade to 42.7.11\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-40973",
+      "Name": "Spring Boot accepts predictable temp directory without ownership verification",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot (range: >= 4.0.0, < 4.0.6) \u2192 upgrade to 4.0.6\n  - org.springframework.boot:spring-boot (range: >= 3.5.0, < 3.5.14) \u2192 upgrade to 3.5.14\n  - org.springframework.boot:spring-boot (range: >= 3.4.0, <= 3.4.15)\n  - org.springframework.boot:spring-boot (range: >= 3.3.0, <= 3.3.18)\n  - org.springframework.boot:spring-boot (range: <= 2.7.32)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:10"
+      ],
+      "Explanation": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot (range: >= 4.0.0, < 4.0.6) \u2192 upgrade to 4.0.6\n  - org.springframework.boot:spring-boot (range: >= 3.5.0, < 3.5.14) \u2192 upgrade to 3.5.14\n  - org.springframework.boot:spring-boot (range: >= 3.4.0, <= 3.4.15)\n  - org.springframework.boot:spring-boot (range: >= 3.3.0, <= 3.3.18)\n  - org.springframework.boot:spring-boot (range: <= 2.7.32)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2026-40972",
+      "Name": "Spring Boot DevTools remote secret comparison is vulnerable to timing attacks",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2026-40972](https://github.com/advisories/GHSA-56v8-86gj-66jp): Spring Boot DevTools remote secret comparison is vulnerable to timing attacks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-devtools (range: >= 4.0.0, < 4.0.6) \u2192 upgrade to 4.0.6\n  - org.springframework.boot:spring-boot-devtools (range: >= 3.5.0, < 3.5.14) \u2192 upgrade to 3.5.14\n  - org.springframework.boot:spring-boot-devtools (range: >= 3.4.0, <= 3.4.15)\n  - org.springframework.boot:spring-boot-devtools (range: >= 3.3.0, <= 3.3.18)\n  - org.springframework.boot:spring-boot-devtools (range: <= 2.7.32)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:110"
+      ],
+      "Explanation": "[CVE-2026-40972](https://github.com/advisories/GHSA-56v8-86gj-66jp): Spring Boot DevTools remote secret comparison is vulnerable to timing attacks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-devtools (range: >= 4.0.0, < 4.0.6) \u2192 upgrade to 4.0.6\n  - org.springframework.boot:spring-boot-devtools (range: >= 3.5.0, < 3.5.14) \u2192 upgrade to 3.5.14\n  - org.springframework.boot:spring-boot-devtools (range: >= 3.4.0, <= 3.4.15)\n  - org.springframework.boot:spring-boot-devtools (range: >= 3.3.0, <= 3.3.18)\n  - org.springframework.boot:spring-boot-devtools (range: <= 2.7.32)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-52999",
+      "Name": "jackson-core can throw a StackoverflowError when processing deeply nested data",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-52999](https://github.com/advisories/GHSA-h46c-h94j-95f3): jackson-core can throw a StackoverflowError when processing deeply nested data\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core (range: < 2.15.0) \u2192 upgrade to 2.15.0\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2025-52999](https://github.com/advisories/GHSA-h46c-h94j-95f3): jackson-core can throw a StackoverflowError when processing deeply nested data\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core (range: < 2.15.0) \u2192 upgrade to 2.15.0\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2025-22235",
+      "Name": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot (range: <= 2.7.24.2)\n  - org.springframework.boot:spring-boot (range: >= 3.1.0, <= 3.1.15.2)\n  - org.springframework.boot:spring-boot (range: >= 3.2.0, <= 3.2.13.2)\n  - org.springframework.boot:spring-boot (range: >= 3.3.0, <= 3.3.10) \u2192 upgrade to 3.3.11\n  - org.springframework.boot:spring-boot (range: >= 3.4.0, <= 3.4.4) \u2192 upgrade to 3.4.5\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:10"
+      ],
+      "Explanation": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot (range: <= 2.7.24.2)\n  - org.springframework.boot:spring-boot (range: >= 3.1.0, <= 3.1.15.2)\n  - org.springframework.boot:spring-boot (range: >= 3.2.0, <= 3.2.13.2)\n  - org.springframework.boot:spring-boot (range: >= 3.3.0, <= 3.3.10) \u2192 upgrade to 3.3.11\n  - org.springframework.boot:spring-boot (range: >= 3.4.0, <= 3.4.4) \u2192 upgrade to 3.4.5\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-22102",
+      "Name": "MySQL Connectors takeover vulnerability",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-22102](https://github.com/advisories/GHSA-m6vm-37g8-gqvh): MySQL Connectors takeover vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.mysql:mysql-connector-j (range: < 8.2.0) \u2192 upgrade to 8.2.0\n  - mysql:mysql-connector-java (range: <= 8.0.33)\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:72"
+      ],
+      "Explanation": "[CVE-2023-22102](https://github.com/advisories/GHSA-m6vm-37g8-gqvh): MySQL Connectors takeover vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.mysql:mysql-connector-j (range: < 8.2.0) \u2192 upgrade to 8.2.0\n  - mysql:mysql-connector-java (range: <= 8.0.33)\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2023-20883",
+      "Name": "Spring Boot Welcome Page Denial of Service",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2023-20883](https://github.com/advisories/GHSA-xf96-w227-r7c4): Spring Boot Welcome Page Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-autoconfigure (range: >= 3.0.0, < 3.0.7) \u2192 upgrade to 3.0.7\n  - org.springframework.boot:spring-boot-autoconfigure (range: >= 2.7.0, < 2.7.12) \u2192 upgrade to 2.7.12\n  - org.springframework.boot:spring-boot-autoconfigure (range: >= 2.6.0, < 2.6.15) \u2192 upgrade to 2.6.15\n  - org.springframework.boot:spring-boot-autoconfigure (range: < 2.5.15) \u2192 upgrade to 2.5.15\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml"
+      ],
+      "Explanation": "[CVE-2023-20883](https://github.com/advisories/GHSA-xf96-w227-r7c4): Spring Boot Welcome Page Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-autoconfigure (range: >= 3.0.0, < 3.0.7) \u2192 upgrade to 3.0.7\n  - org.springframework.boot:spring-boot-autoconfigure (range: >= 2.7.0, < 2.7.12) \u2192 upgrade to 2.7.12\n  - org.springframework.boot:spring-boot-autoconfigure (range: >= 2.6.0, < 2.6.15) \u2192 upgrade to 2.6.15\n  - org.springframework.boot:spring-boot-autoconfigure (range: < 2.5.15) \u2192 upgrade to 2.5.15\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-45868",
+      "Name": "Password exposure in H2 Database ",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-45868](https://github.com/advisories/GHSA-22wj-vf5f-wrvj): Password exposure in H2 Database \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.h2database:h2 (range: >= 1.4.198, < 2.2.220) \u2192 upgrade to 2.2.220\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:66"
+      ],
+      "Explanation": "[CVE-2022-45868](https://github.com/advisories/GHSA-22wj-vf5f-wrvj): Password exposure in H2 Database \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.h2database:h2 (range: >= 1.4.198, < 2.2.220) \u2192 upgrade to 2.2.220\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    },
+    {
+      "Id": "CVE-2022-31197",
+      "Name": "PostgreSQL JDBC Driver SQL Injection in ResultSet.refreshRow() with malicious column names",
+      "Category": "CVE",
+      "Severity": "mandatory",
+      "StoryPoint": 1,
+      "Description": "[CVE-2022-31197](https://github.com/advisories/GHSA-r38f-c4h4-hqq2): PostgreSQL JDBC Driver SQL Injection in ResultSet.refreshRow() with malicious column names\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql (range: < 42.2.26) \u2192 upgrade to 42.2.26\n  - org.postgresql:postgresql (range: >= 42.4.0, < 42.4.1) \u2192 upgrade to 42.4.1\n  - org.postgresql:postgresql (range: >= 42.3.0, < 42.3.7) \u2192 upgrade to 42.3.7\n\nRecommended fix: Upgrade affected dependencies to patched versions.",
+      "Files": [
+        "pom.xml:76"
+      ],
+      "Explanation": "[CVE-2022-31197](https://github.com/advisories/GHSA-r38f-c4h4-hqq2): PostgreSQL JDBC Driver SQL Injection in ResultSet.refreshRow() with malicious column names\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql (range: < 42.2.26) \u2192 upgrade to 42.2.26\n  - org.postgresql:postgresql (range: >= 42.4.0, < 42.4.1) \u2192 upgrade to 42.4.1\n  - org.postgresql:postgresql (range: >= 42.3.0, < 42.3.7) \u2192 upgrade to 42.3.7\n\nRecommended fix: Upgrade affected dependencies to patched versions."
+    }
+  ],
+  "CweFindings": [
+    {
+      "Id": "CWE-1057",
+      "Name": "Data Access Operations Outside of Expected Data Manager Component",
+      "Category": "Code Quality",
+      "Severity": "potential",
+      "StoryPoint": 5,
+      "Description": "The product uses a dedicated, central data manager component as required by design, but it contains code that performs data-access operations that do not use this data manager.",
+      "Files": [
+        "src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/PetController.java",
+        "src/main/java/org/springframework/samples/petclinic/vet/VetController.java"
+      ],
+      "Explanation": "Controllers directly inject and use JPA Repository interfaces (data access objects) without an intermediate service layer. In OwnerController (line 48), PetController (line 38), and VetController (line 38), repository beans are injected directly, performing data-access operations (findById, findByLastName, save, findAll) outside of any dedicated service/manager component. The expected pattern for a layered architecture would interpose a @Service component between the controller and the repository."
+    },
+    {
+      "Id": "CWE-259",
+      "Name": "Use of Hard-coded Password",
+      "Category": "Credentials & Secrets",
+      "Severity": "optional",
+      "StoryPoint": 5,
+      "Description": "The product contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.",
+      "Files": [
+        "src/main/resources/application-mysql.properties",
+        "src/main/resources/application-postgres.properties"
+      ],
+      "Explanation": "Both database profile property files contain hard-coded default passwords embedded as fallback values in Spring property expressions. In application-mysql.properties: `spring.datasource.****** defaults to 'petclinic' when MYSQL_PASS env var is absent. In application-postgres.properties: `spring.datasource.****** defaults to 'petclinic' when POSTGRES_PASS is absent. These hard-coded fallback passwords are used to connect to the database."
+    },
+    {
+      "Id": "CWE-778",
+      "Name": "Insufficient Logging",
+      "Category": "Credentials & Secrets",
+      "Severity": "potential",
+      "StoryPoint": 3,
+      "Description": "When a security-critical event occurs, the product either does not record the event or omits important details about the event when logging it.",
+      "Files": [
+        "src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java",
+        "src/main/java/org/springframework/samples/petclinic/vet/VetController.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/PetController.java"
+      ],
+      "Explanation": "None of the application's controller classes (OwnerController, PetController, VetController, VisitController) use any logging framework (no SLF4J Logger, no Log4j, no java.util.logging). Security-critical events such as form submission errors, data creation/updates, and application errors are not logged, making it impossible to audit or detect suspicious activity."
+    },
+    {
+      "Id": "CWE-798",
+      "Name": "Use of Hard-coded Credentials",
+      "Category": "Credentials & Secrets",
+      "Severity": "optional",
+      "StoryPoint": 5,
+      "Description": "The product contains hard-coded credentials, such as a password or cryptographic key.",
+      "Files": [
+        "src/main/resources/application-mysql.properties",
+        "src/main/resources/application-postgres.properties"
+      ],
+      "Explanation": "Both database profile property files embed hard-coded default credentials. application-mysql.properties sets `spring.datasource.username=${MYSQL_USER:petclinic}` and `spring.datasource.****** application-postgres.properties sets `spring.datasource.username=${POSTGRES_USER:petclinic}` and `spring.datasource.****** When the corresponding environment variables are not provided, these hard-coded username/password values are used for database authentication."
+    }
+  ]
+}
